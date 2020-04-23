@@ -18,6 +18,15 @@ namespace WebAppSonar.Controllers
             ViewBag.Message = "Your application description page.";
 
             return View();
+            try
+            {
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public ActionResult Contact()
