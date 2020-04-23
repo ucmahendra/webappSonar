@@ -23,7 +23,7 @@ namespace WebAppSonar.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            var t = "";
             return View();
         }
     }
